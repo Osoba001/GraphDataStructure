@@ -11,6 +11,7 @@ namespace GraphDataStructure
         public NodeW<T> From { get; set; }
         public NodeW<T> To { get; set; }
         public int Weight { get; set; }
+
         // ComparatorTo for sorting edges based on their weight
         //public int CompareTo(WeightedEdge<T> compareEdge)
         //{
